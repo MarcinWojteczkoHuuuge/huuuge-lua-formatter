@@ -66,11 +66,11 @@ public:
 
     bool space_before_open_square_bracket = false;
 
-    bool space_inside_function_call_parentheses = false;
+    bool space_inside_function_call_parentheses = true;
 
-    bool space_inside_function_param_list_parentheses = false;
+    bool space_inside_function_param_list_parentheses = true;
 
-    bool space_inside_square_brackets = false;
+    bool space_inside_square_brackets = true;
 
     // like t[#t+1] = 1
     bool space_around_table_append_operator = false;
@@ -125,7 +125,7 @@ public:
 
     /*
      * if true retains indents on empty lines as if they contained some code
-     * if false deletes the tab characters and spaces on empty lines 
+     * if false deletes the tab characters and spaces on empty lines
      */
     bool keep_indents_on_empty_lines = false;
 
