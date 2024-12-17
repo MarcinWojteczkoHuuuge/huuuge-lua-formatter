@@ -111,7 +111,7 @@ public:
 
     bool align_continuous_inline_comment = true;
 
-    AlignArrayTable align_array_table = AlignArrayTable::Normal;
+    AlignArrayTable align_array_table = AlignArrayTable::None;
 
     AlignChainExpr align_chain_expr = AlignChainExpr::None;
     // [Indent]
